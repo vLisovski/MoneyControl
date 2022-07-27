@@ -3,6 +3,17 @@ import java.util.ArrayList;
 import java.util.function.BiFunction;
 
 public class Main {
+    public static void printMenu(){
+
+        System.out.println("Menu:");
+        System.out.println("1.Load your history from file");
+        System.out.println("2.Save your history to file");
+        System.out.println("3.Show operations from period");
+        System.out.println("4.Add operation to your history");
+        System.out.println("5.Show statistic from refill");
+        System.out.println("6.Show statistic from waste");
+        System.out.println("7.Show sorted operations");
+    }
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
@@ -11,7 +22,7 @@ public class Main {
         Account account = new Account();
         while (true) {
 
-            Utilites.printMenu();
+            printMenu();
             int operation = Utilites.enteringIntValue("Enter a number of operation:", 7, 1);
             switch (operation) {
                 case 1: {

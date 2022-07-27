@@ -3,16 +3,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Utilites {
-    public static void printMenu(){
-        System.out.println("Menu:");
-        System.out.println("1.Load your history from file");
-        System.out.println("2.Save your history to file");
-        System.out.println("3.Show operations from period");
-        System.out.println("4.Add operation to your history");
-        System.out.println("5.Show statistic from refill");
-        System.out.println("6.Show statistic from waste");
-        System.out.println("7.Show sorted operations");
-    }
+
 
     public static void clearConsole(int steps){
         for (int i = 0; i < steps; i++) {

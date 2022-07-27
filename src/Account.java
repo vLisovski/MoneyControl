@@ -210,12 +210,12 @@ public class Account {
 
         FileReader fileReader = new FileReader(fileName);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
-        ArrayList<MoneyOperation> operations1 = new ArrayList<>();
+        operations = new ArrayList<>();
 
         int i = Integer.parseInt(bufferedReader.readLine());
 
         for (int j = 0; j < i; j++) {
-            boolean ref = Boolean.getBoolean(bufferedReader.readLine());
+            boolean ref = Boolean.parseBoolean(bufferedReader.readLine());
             String sou = bufferedReader.readLine();
             int mon = Integer.parseInt(bufferedReader.readLine());
             Time time1 = new Time(bufferedReader.readLine());
@@ -226,6 +226,6 @@ public class Account {
 
         bufferedReader.close();
         fileReader.close();
-        operations=operations1;
+
     }
 }
