@@ -1,0 +1,13 @@
+
+true
+Salary
+?
+Wed Jul 27 13:31:01 MSK 2022
+false
+Food
+?
+Wed Jul 27 13:31:01 MSK 2022
+true
+Social payment
+?
+Wed Jul 27 13:31:01 MSK 2022

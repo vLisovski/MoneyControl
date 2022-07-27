@@ -1,0 +1,13 @@
+3
+true
+Salary
+50000
+Wed Jul 27 13:53:43 MSK 2022
+false
+Food
+5000
+Wed Jul 27 14:22:17 MSK 2022
+true
+Social payment
+10000
+Wed Jul 27 01:03:09 MSK 2022
